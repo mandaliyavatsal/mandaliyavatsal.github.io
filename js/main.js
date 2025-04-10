@@ -286,23 +286,6 @@
 		})
 	};
 
-	// Handle contact form submission
-	var handleContactForm = function() {
-		$('.btn-send-message').on('click', function(event) {
-			event.preventDefault();
-			var name = $('input[name="name"]').val();
-			var email = $('input[name="email"]').val();
-			var message = $('textarea[name="message"]').val();
-
-			if (name && email && message) {
-				alert('Message sent successfully!');
-				// Here you can add your code to handle the form submission, e.g., send the data to a server
-			} else {
-				alert('Please fill in all fields.');
-			}
-		});
-	};
-
 	// Handle dark mode toggle
 	var handleDarkModeToggle = function() {
 		$('.js-dark-mode-toggle').on('click', function(event) {
@@ -329,7 +312,6 @@
 		sliderMain();
 		stickyFunction();
 		owlCrouselFeatureSlide();
-		handleContactForm();
 		handleDarkModeToggle();
 	});
 

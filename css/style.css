@@ -1461,29 +1461,6 @@ body.offcanvas {
   color: #2c98f0;
 }
 
-/* Contact Form */
-.colorlib-contact .form-control {
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  height: 54px;
-  font-size: 16px;
-  font-weight: 400;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-}
-.colorlib-contact .form-control:active, .colorlib-contact .form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-color: #2c98f0;
-  background: #f0f0f0;
-}
-
 /* Dark Mode */
 body.dark-mode {
   background-color: #121212;
