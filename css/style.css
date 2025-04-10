@@ -1484,3 +1484,20 @@ body.dark-mode .form-control:active, body.dark-mode .form-control:focus {
   background: #444444;
   border-color: #bb86fc;
 }
+
+/* Blog Post Content */
+.blog-entry .desc ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.blog-entry .desc ul li {
+  margin-bottom: 10px;
+}
+.blog-entry .desc h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.blog-entry .desc p {
+  margin-bottom: 20px;
+}
