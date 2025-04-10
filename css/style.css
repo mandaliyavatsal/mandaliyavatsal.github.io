@@ -1427,3 +1427,83 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+/* Blog Section */
+.colorlib-blog {
+  background: #f2f3f7;
+}
+.colorlib-blog .heading-meta {
+  color: #2c98f0;
+}
+.colorlib-blog .colorlib-heading {
+  color: #2c98f0;
+}
+
+/* Portfolio Section */
+.colorlib-portfolio {
+  background: #fff;
+}
+.colorlib-portfolio .heading-meta {
+  color: #2c98f0;
+}
+.colorlib-portfolio .colorlib-heading {
+  color: #2c98f0;
+}
+
+/* Testimonials Section */
+.colorlib-testimonials {
+  background: #f2f3f7;
+}
+.colorlib-testimonials .heading-meta {
+  color: #2c98f0;
+}
+.colorlib-testimonials .colorlib-heading {
+  color: #2c98f0;
+}
+
+/* Contact Form */
+.colorlib-contact .form-control {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  height: 54px;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.colorlib-contact .form-control:active, .colorlib-contact .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #2c98f0;
+  background: #f0f0f0;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body.dark-mode a {
+  color: #bb86fc;
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: #ffffff;
+}
+body.dark-mode .colorlib-heading {
+  color: #bb86fc;
+}
+body.dark-mode .form-control {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+body.dark-mode .form-control:active, body.dark-mode .form-control:focus {
+  background: #444444;
+  border-color: #bb86fc;
+}
